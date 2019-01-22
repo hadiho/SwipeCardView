@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IRANYekanMobileBold.ttf">
+            <string>IRANYekanMobile-Bold</string>
+        </array>
+        <array key="IRANYekanMobileRegular.ttf">
+            <string>IRANYekanMobile</string>
+        </array>
+        <array key="fontawesome-webfont.ttf">
+            <string>FontAwesome</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="579" id="0lg-qc-jzM" customClass="CandidateCardCell" customModule="_SootJobs" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="579"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0lg-qc-jzM" id="C2j-9W-QQA">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="578.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ygp-C2-MZs">
+                        <rect key="frame" x="16" y="0.0" width="343" height="70"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="استخدام برنامه نویس ارشد جاوا ( آقا - Senior Java Developer )" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0d-Ee-hOF">
+                                <rect key="frame" x="8" y="8" width="327" height="54"/>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="16"/>
+                                <color key="textColor" red="0.023529411764705882" green="0.12156862745098039" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="d0d-Ee-hOF" secondAttribute="trailing" constant="8" id="CCX-su-fcy"/>
+                            <constraint firstItem="d0d-Ee-hOF" firstAttribute="leading" secondItem="ygp-C2-MZs" secondAttribute="leading" constant="8" id="Vd6-sk-cGL"/>
+                            <constraint firstAttribute="height" constant="70" id="pOP-6x-xgl"/>
+                            <constraint firstAttribute="bottom" secondItem="d0d-Ee-hOF" secondAttribute="bottom" constant="8" id="yx2-5x-sxS"/>
+                            <constraint firstItem="d0d-Ee-hOF" firstAttribute="top" secondItem="ygp-C2-MZs" secondAttribute="top" constant="8" id="zBA-wr-ZIj"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rOL-ij-Wbd">
+                        <rect key="frame" x="16" y="78" width="343" height="120"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HvY-GL-xaZ">
+                                <rect key="frame" x="330" y="8" width="13" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="UlK-Ej-cWN"/>
+                                    <constraint firstAttribute="width" constant="13" id="cs8-sP-tIr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="13"/>
+                                <color key="textColor" red="0.90980392156862744" green="0.27450980392156865" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="سابقه کار :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdt-xG-OL8">
+                                <rect key="frame" x="249" y="8" width="73" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="og5-Vj-mgc"/>
+                                    <constraint firstAttribute="height" constant="13" id="sVq-Sh-WyV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="۱۰ سال" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ss4-0k-h3f">
+                                <rect key="frame" x="0.0" y="7" width="241" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="5Uj-b3-bBx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxq-DO-Z57">
+                                <rect key="frame" x="330" y="33" width="13" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="Gzx-l5-bkm"/>
+                                    <constraint firstAttribute="width" constant="13" id="f2z-T3-ndW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="13"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مکان :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Esx-9V-kYO">
+                                <rect key="frame" x="249" y="33" width="73" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="58R-8v-OL5"/>
+                                    <constraint firstAttribute="height" constant="13" id="pJ0-Kf-qDU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تهران، تهران" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5M-rz-Gcx">
+                                <rect key="frame" x="0.0" y="33" width="241" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="vBl-Ml-POB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0d-OE-kdI">
+                                <rect key="frame" x="329" y="58" width="14" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14" id="Ixm-z2-F9u"/>
+                                    <constraint firstAttribute="height" constant="13" id="NYe-jH-BsF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="13"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="حقوق :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pY4-9M-cU8">
+                                <rect key="frame" x="249" y="58" width="73" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="0fO-Um-8P2"/>
+                                    <constraint firstAttribute="height" constant="13" id="c9J-1h-xAr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="بین ۲،۰۰۰،۰۰۰ تا ۴،۰۰۰،۰۰۰ تومان" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RC-JK-s89">
+                                <rect key="frame" x="0.0" y="58" width="241" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="GUG-EJ-a9H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ve6-UF-mPM">
+                                <rect key="frame" x="329" y="83" width="14" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="23m-T6-iK9"/>
+                                    <constraint firstAttribute="width" constant="14" id="nJF-QV-wlc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="13"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نوع همکاری :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewj-1Y-mYD">
+                                <rect key="frame" x="249" y="83" width="73" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="NFm-r3-WBb"/>
+                                    <constraint firstAttribute="width" constant="73" id="OBb-EE-RJ9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تمام وقت، نیمه وقت، کارآموزی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMv-EA-shF">
+                                <rect key="frame" x="0.0" y="83" width="241" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="UQ1-eF-hzL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaN-rW-v20">
+                                <rect key="frame" x="326" y="108" width="17" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="17" id="sNU-D0-ZVa"/>
+                                    <constraint firstAttribute="height" constant="13" id="wDd-7n-bPa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="13"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تحصیلات :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTk-lK-v5i">
+                                <rect key="frame" x="246" y="108" width="73" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="ILi-R6-P5B"/>
+                                    <constraint firstAttribute="height" constant="13" id="dmO-0j-hqg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="کارشناسی ارشد" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nt4-wa-xEU">
+                                <rect key="frame" x="0.0" y="108" width="238" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="MWe-pF-jVL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Esx-9V-kYO" firstAttribute="top" secondItem="xxq-DO-Z57" secondAttribute="top" id="0R5-1w-KWW"/>
+                            <constraint firstAttribute="trailing" secondItem="HvY-GL-xaZ" secondAttribute="trailing" id="0Zs-Vp-z68"/>
+                            <constraint firstItem="Fdt-xG-OL8" firstAttribute="leading" secondItem="Ss4-0k-h3f" secondAttribute="trailing" constant="8" id="2ME-wg-O4o"/>
+                            <constraint firstAttribute="trailing" secondItem="ve6-UF-mPM" secondAttribute="trailing" id="2q1-Ng-tka"/>
+                            <constraint firstItem="NMv-EA-shF" firstAttribute="leading" secondItem="rOL-ij-Wbd" secondAttribute="leading" id="2rV-Of-qtJ"/>
+                            <constraint firstItem="pY4-9M-cU8" firstAttribute="top" secondItem="A0d-OE-kdI" secondAttribute="top" id="3tY-OY-YsL"/>
+                            <constraint firstAttribute="trailing" secondItem="xxq-DO-Z57" secondAttribute="trailing" id="5Fk-EW-zXO"/>
+                            <constraint firstItem="ewj-1Y-mYD" firstAttribute="leading" secondItem="NMv-EA-shF" secondAttribute="trailing" constant="8" id="6wt-Tu-11L"/>
+                            <constraint firstItem="kTk-lK-v5i" firstAttribute="top" secondItem="TaN-rW-v20" secondAttribute="top" id="89A-33-9kN"/>
+                            <constraint firstItem="HvY-GL-xaZ" firstAttribute="leading" secondItem="Fdt-xG-OL8" secondAttribute="trailing" constant="8" id="9PA-tM-EtB"/>
+                            <constraint firstItem="2RC-JK-s89" firstAttribute="leading" secondItem="rOL-ij-Wbd" secondAttribute="leading" id="AaX-QV-6fQ"/>
+                            <constraint firstAttribute="height" constant="120" id="DBp-hX-wYM"/>
+                            <constraint firstItem="A0d-OE-kdI" firstAttribute="top" secondItem="xxq-DO-Z57" secondAttribute="bottom" constant="12" id="GAe-Nz-Crv"/>
+                            <constraint firstAttribute="trailing" secondItem="A0d-OE-kdI" secondAttribute="trailing" id="GSo-Wf-LpB"/>
+                            <constraint firstItem="Nt4-wa-xEU" firstAttribute="leading" secondItem="rOL-ij-Wbd" secondAttribute="leading" id="MFL-Rs-TrS"/>
+                            <constraint firstItem="ewj-1Y-mYD" firstAttribute="top" secondItem="ve6-UF-mPM" secondAttribute="top" id="ObU-SE-pmj"/>
+                            <constraint firstItem="ve6-UF-mPM" firstAttribute="top" secondItem="A0d-OE-kdI" secondAttribute="bottom" constant="12" id="PIT-ta-WQE"/>
+                            <constraint firstItem="HvY-GL-xaZ" firstAttribute="top" secondItem="rOL-ij-Wbd" secondAttribute="top" constant="8" id="Pgb-4a-W5a"/>
+                            <constraint firstItem="2RC-JK-s89" firstAttribute="top" secondItem="pY4-9M-cU8" secondAttribute="top" id="QlU-VH-bPp"/>
+                            <constraint firstItem="kTk-lK-v5i" firstAttribute="leading" secondItem="Nt4-wa-xEU" secondAttribute="trailing" constant="8" id="RIR-cb-sYn"/>
+                            <constraint firstItem="ve6-UF-mPM" firstAttribute="leading" secondItem="ewj-1Y-mYD" secondAttribute="trailing" constant="7" id="V6X-xj-RjP"/>
+                            <constraint firstItem="c5M-rz-Gcx" firstAttribute="top" secondItem="Esx-9V-kYO" secondAttribute="top" id="Vw1-gj-MgS"/>
+                            <constraint firstItem="Esx-9V-kYO" firstAttribute="leading" secondItem="c5M-rz-Gcx" secondAttribute="trailing" constant="8" id="WRH-Py-f2a"/>
+                            <constraint firstItem="c5M-rz-Gcx" firstAttribute="leading" secondItem="rOL-ij-Wbd" secondAttribute="leading" id="brC-3T-sos"/>
+                            <constraint firstItem="TaN-rW-v20" firstAttribute="top" secondItem="ve6-UF-mPM" secondAttribute="bottom" constant="12" id="cRl-vs-Pyt"/>
+                            <constraint firstItem="xxq-DO-Z57" firstAttribute="leading" secondItem="Esx-9V-kYO" secondAttribute="trailing" constant="8" id="dDh-OE-vhh"/>
+                            <constraint firstItem="Ss4-0k-h3f" firstAttribute="leading" secondItem="rOL-ij-Wbd" secondAttribute="leading" id="e9b-4u-kC4"/>
+                            <constraint firstItem="xxq-DO-Z57" firstAttribute="top" secondItem="Fdt-xG-OL8" secondAttribute="bottom" constant="12" id="eWn-ce-WFe"/>
+                            <constraint firstItem="Fdt-xG-OL8" firstAttribute="top" secondItem="rOL-ij-Wbd" secondAttribute="top" constant="8" id="hKQ-R1-NgK"/>
+                            <constraint firstItem="A0d-OE-kdI" firstAttribute="leading" secondItem="pY4-9M-cU8" secondAttribute="trailing" constant="7" id="hVI-tG-hM2"/>
+                            <constraint firstItem="pY4-9M-cU8" firstAttribute="leading" secondItem="2RC-JK-s89" secondAttribute="trailing" constant="8" id="hvs-XZ-0Y9"/>
+                            <constraint firstItem="TaN-rW-v20" firstAttribute="leading" secondItem="kTk-lK-v5i" secondAttribute="trailing" constant="7" id="lbk-vY-ccr"/>
+                            <constraint firstItem="NMv-EA-shF" firstAttribute="top" secondItem="ewj-1Y-mYD" secondAttribute="top" id="lnY-P4-viJ"/>
+                            <constraint firstItem="Nt4-wa-xEU" firstAttribute="top" secondItem="kTk-lK-v5i" secondAttribute="top" id="nV6-7r-7lz"/>
+                            <constraint firstItem="Ss4-0k-h3f" firstAttribute="top" secondItem="rOL-ij-Wbd" secondAttribute="top" constant="7" id="sYj-xx-tXc"/>
+                            <constraint firstAttribute="trailing" secondItem="TaN-rW-v20" secondAttribute="trailing" id="yt7-L1-nM9"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4O-7h-MmQ">
+                        <rect key="frame" x="16" y="214" width="343" height="2"/>
+                        <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="Yp3-96-riR"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XOm-0G-myu">
+                        <rect key="frame" x="16" y="290" width="343" height="2"/>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="ivr-EK-eGu"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUm-Mu-MiX">
+                        <rect key="frame" x="16" y="383" width="343" height="2"/>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="VRm-B7-eRf"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnW-oO-Akp">
+                        <rect key="frame" x="16" y="232" width="343" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WH-KZ-4vl">
+                                <rect key="frame" x="325" y="0.0" width="18" height="16"/>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="16"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="زمینه شغلی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fuc-hK-HK4">
+                                <rect key="frame" x="254.5" y="2" width="62.5" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="aLe-UP-d6S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile-Bold" family="IRANYekanMobile" pointSize="14"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="کامپیوتر و فناوری اطلاعات (IT) : برنامه نویس بک اند" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ann-fQ-cps">
+                                <rect key="frame" x="8" y="28" width="335" height="14"/>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7WH-KZ-4vl" secondAttribute="trailing" id="42i-6O-2kD"/>
+                            <constraint firstItem="Ann-fQ-cps" firstAttribute="trailing" secondItem="7WH-KZ-4vl" secondAttribute="trailing" id="4XD-ez-c0i"/>
+                            <constraint firstItem="7WH-KZ-4vl" firstAttribute="leading" secondItem="Fuc-hK-HK4" secondAttribute="trailing" constant="8" id="4Zq-KE-l65"/>
+                            <constraint firstItem="Fuc-hK-HK4" firstAttribute="centerY" secondItem="7WH-KZ-4vl" secondAttribute="centerY" id="I9V-ey-NL2"/>
+                            <constraint firstAttribute="height" constant="40" id="LFA-qc-ax5"/>
+                            <constraint firstItem="Ann-fQ-cps" firstAttribute="top" secondItem="7WH-KZ-4vl" secondAttribute="bottom" constant="12" id="YvN-q7-fCe"/>
+                            <constraint firstItem="7WH-KZ-4vl" firstAttribute="top" secondItem="LnW-oO-Akp" secondAttribute="top" id="kBj-ic-Mga"/>
+                            <constraint firstItem="Ann-fQ-cps" firstAttribute="leading" secondItem="LnW-oO-Akp" secondAttribute="leading" constant="8" id="sIQ-G7-ze2"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PIo-yQ-rA7">
+                        <rect key="frame" x="16" y="308" width="343" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cU-xI-NLm">
+                                <rect key="frame" x="327" y="0.0" width="16" height="16"/>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="16"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مهارت ها" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4L-Kw-zkN">
+                                <rect key="frame" x="269.5" y="2" width="49.5" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="eCh-AB-euP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile-Bold" family="IRANYekanMobile" pointSize="14"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pOH-Qs-zcT" customClass="TagView" customModule="_SootJobs" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="27" width="343" height="5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="1JA-qF-rLF"/>
+                            <constraint firstItem="H4L-Kw-zkN" firstAttribute="centerY" secondItem="2cU-xI-NLm" secondAttribute="centerY" id="8jf-GI-sR1"/>
+                            <constraint firstItem="2cU-xI-NLm" firstAttribute="top" secondItem="PIo-yQ-rA7" secondAttribute="top" id="9KR-iU-d4R"/>
+                            <constraint firstItem="2cU-xI-NLm" firstAttribute="leading" secondItem="H4L-Kw-zkN" secondAttribute="trailing" constant="8" id="Hgz-oo-rvV"/>
+                            <constraint firstItem="pOH-Qs-zcT" firstAttribute="top" secondItem="H4L-Kw-zkN" secondAttribute="bottom" constant="12" id="OdN-NM-kSE"/>
+                            <constraint firstAttribute="trailing" secondItem="pOH-Qs-zcT" secondAttribute="trailing" id="QA9-nE-h8q"/>
+                            <constraint firstAttribute="bottom" secondItem="pOH-Qs-zcT" secondAttribute="bottom" constant="8" id="QOE-dz-FTa"/>
+                            <constraint firstAttribute="trailing" secondItem="2cU-xI-NLm" secondAttribute="trailing" id="eKU-ld-sZA"/>
+                            <constraint firstItem="pOH-Qs-zcT" firstAttribute="leading" secondItem="PIo-yQ-rA7" secondAttribute="leading" id="n66-lq-0Kb"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mM-Rr-lLQ">
+                        <rect key="frame" x="16" y="401" width="343" height="76"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txv-Mi-UuH">
+                                <rect key="frame" x="328" y="0.0" width="15" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="6gi-zu-pwJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="16"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="توضیحات مربوط به شرح شغل و شرایط احراز" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeL-Bf-mUh">
+                                <rect key="frame" x="90.5" y="2" width="229.5" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="w6D-4O-Rya"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile-Bold" family="IRANYekanMobile" pointSize="14"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.27450980390000002" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axl-7K-uNd">
+                                <rect key="frame" x="0.0" y="24" width="343" height="44"/>
+                                <string key="text">در راستای اهداف آموزشی و فرهنگی(سامانه های مدیریت آموزش) در محیطی حرفه ای ، دوستانه و بدون استرس جهت تکمیل و توسعه تیم های برنامه نویسی خود به دنبال افراد خلاق ، توانمند ، مسئولیت پذیر و با تجربه می باشد. ما به افرادی نیاز داریم که دانش و مهارت کافی برای پذیرش مسئولیت، یادگیری تکنولوژی های نوین، تحقیق و توسعه و مشارکت تیمی را داشته باشند. شرایط : مسلط به PHP و پایگاه داده MySQL مسلط به فریم ورک Laravel مسلط به JavaScript آشنا به وب سرویس NGINX و Apache تجربه کار با لینوکس و برنامه نویسی در محیط لینوکس تسلط مناسب به زبان انگلیسی منظم و دقیق ، دارای روحیه کار تیمی حداقل 1 سال سابقه کار مفید </string>
+                                <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Txv-Mi-UuH" firstAttribute="top" secondItem="0mM-Rr-lLQ" secondAttribute="top" id="3vz-SS-asL"/>
+                            <constraint firstItem="Axl-7K-uNd" firstAttribute="top" secondItem="Txv-Mi-UuH" secondAttribute="bottom" constant="8" id="6mn-ho-Tbf"/>
+                            <constraint firstItem="Txv-Mi-UuH" firstAttribute="leading" secondItem="BeL-Bf-mUh" secondAttribute="trailing" constant="8" id="79c-pS-fMl"/>
+                            <constraint firstAttribute="height" constant="76" id="JhE-3R-78F"/>
+                            <constraint firstAttribute="trailing" secondItem="Axl-7K-uNd" secondAttribute="trailing" id="S6m-ZX-Qfe"/>
+                            <constraint firstAttribute="trailing" secondItem="Txv-Mi-UuH" secondAttribute="trailing" id="Sw0-6N-pIG"/>
+                            <constraint firstAttribute="bottom" secondItem="Axl-7K-uNd" secondAttribute="bottom" constant="8" id="VRC-a0-dE3"/>
+                            <constraint firstItem="BeL-Bf-mUh" firstAttribute="centerY" secondItem="Txv-Mi-UuH" secondAttribute="centerY" id="Y3V-ch-dfm"/>
+                            <constraint firstItem="Axl-7K-uNd" firstAttribute="leading" secondItem="0mM-Rr-lLQ" secondAttribute="leading" id="dMo-xI-uxb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ygp-C2-MZs" firstAttribute="top" secondItem="C2j-9W-QQA" secondAttribute="top" id="2yH-op-Wmb"/>
+                    <constraint firstItem="XOm-0G-myu" firstAttribute="leading" secondItem="LnW-oO-Akp" secondAttribute="leading" id="7Qg-Bf-xBQ"/>
+                    <constraint firstItem="PIo-yQ-rA7" firstAttribute="top" secondItem="XOm-0G-myu" secondAttribute="bottom" constant="16" id="FSM-KJ-A4h"/>
+                    <constraint firstItem="XOm-0G-myu" firstAttribute="trailing" secondItem="LnW-oO-Akp" secondAttribute="trailing" id="JLV-3u-HfQ"/>
+                    <constraint firstItem="PIo-yQ-rA7" firstAttribute="leading" secondItem="rOL-ij-Wbd" secondAttribute="leading" id="L17-hO-fKF"/>
+                    <constraint firstItem="XOm-0G-myu" firstAttribute="top" secondItem="LnW-oO-Akp" secondAttribute="bottom" constant="18" id="Ohn-dk-kbW"/>
+                    <constraint firstItem="FUm-Mu-MiX" firstAttribute="top" secondItem="PIo-yQ-rA7" secondAttribute="bottom" constant="35" id="PDH-4q-Cbo"/>
+                    <constraint firstItem="LnW-oO-Akp" firstAttribute="leading" secondItem="rOL-ij-Wbd" secondAttribute="leading" id="PQ2-JF-8dr"/>
+                    <constraint firstItem="rOL-ij-Wbd" firstAttribute="top" secondItem="ygp-C2-MZs" secondAttribute="bottom" constant="8" id="RVa-4c-NoH"/>
+                    <constraint firstItem="FUm-Mu-MiX" firstAttribute="leading" secondItem="C2j-9W-QQA" secondAttribute="leadingMargin" id="SAh-wj-Gro"/>
+                    <constraint firstItem="0mM-Rr-lLQ" firstAttribute="trailing" secondItem="PIo-yQ-rA7" secondAttribute="trailing" id="TML-UC-JnZ"/>
+                    <constraint firstItem="FUm-Mu-MiX" firstAttribute="trailing" secondItem="C2j-9W-QQA" secondAttribute="trailingMargin" id="UTo-KO-6D7"/>
+                    <constraint firstItem="Z4O-7h-MmQ" firstAttribute="trailing" secondItem="rOL-ij-Wbd" secondAttribute="trailing" id="Vj0-Ct-Xfg"/>
+                    <constraint firstItem="Z4O-7h-MmQ" firstAttribute="top" secondItem="rOL-ij-Wbd" secondAttribute="bottom" constant="16" id="WSH-xV-P7s"/>
+                    <constraint firstItem="0mM-Rr-lLQ" firstAttribute="leading" secondItem="PIo-yQ-rA7" secondAttribute="leading" id="XD3-4b-xnf"/>
+                    <constraint firstItem="Z4O-7h-MmQ" firstAttribute="leading" secondItem="rOL-ij-Wbd" secondAttribute="leading" id="dsa-Br-UXv"/>
+                    <constraint firstAttribute="trailing" secondItem="ygp-C2-MZs" secondAttribute="trailing" constant="16" id="e84-1Z-fSV"/>
+                    <constraint firstItem="LnW-oO-Akp" firstAttribute="top" secondItem="Z4O-7h-MmQ" secondAttribute="bottom" constant="16" id="h4f-6o-D56"/>
+                    <constraint firstItem="ygp-C2-MZs" firstAttribute="leading" secondItem="C2j-9W-QQA" secondAttribute="leading" constant="16" id="hGe-3o-IvI"/>
+                    <constraint firstItem="0mM-Rr-lLQ" firstAttribute="top" secondItem="FUm-Mu-MiX" secondAttribute="bottom" constant="16" id="iew-iT-JBc"/>
+                    <constraint firstItem="rOL-ij-Wbd" firstAttribute="trailing" secondItem="C2j-9W-QQA" secondAttribute="trailingMargin" id="k1e-kM-Dh0"/>
+                    <constraint firstItem="PIo-yQ-rA7" firstAttribute="trailing" secondItem="rOL-ij-Wbd" secondAttribute="trailing" id="q7T-ME-bZB"/>
+                    <constraint firstItem="rOL-ij-Wbd" firstAttribute="leading" secondItem="C2j-9W-QQA" secondAttribute="leadingMargin" id="udV-fI-sI3"/>
+                    <constraint firstItem="LnW-oO-Akp" firstAttribute="trailing" secondItem="rOL-ij-Wbd" secondAttribute="trailing" id="yQB-to-64O"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descHeight" destination="JhE-3R-78F" id="eXj-3F-3Mn"/>
+                <outlet property="descLbl" destination="Axl-7K-uNd" id="bLr-wu-8qB"/>
+                <outlet property="educationLbl" destination="Nt4-wa-xEU" id="84n-sQ-A6u"/>
+                <outlet property="experienceLbl" destination="Ss4-0k-h3f" id="a2n-CX-UYZ"/>
+                <outlet property="firstSeparatorView" destination="Z4O-7h-MmQ" id="Y3f-LQ-wLJ"/>
+                <outlet property="locationLbl" destination="c5M-rz-Gcx" id="icJ-SV-WwC"/>
+                <outlet property="salaryLbl" destination="2RC-JK-s89" id="pxX-4n-3Od"/>
+                <outlet property="skillsHeightConst" destination="1JA-qF-rLF" id="wZh-Ps-4HP"/>
+                <outlet property="tagView" destination="pOH-Qs-zcT" id="fNk-bl-IzY"/>
+                <outlet property="title" destination="d0d-Ee-hOF" id="VDt-Wa-VRg"/>
+                <outlet property="titleView" destination="ygp-C2-MZs" id="uEU-sA-uka"/>
+                <outlet property="workBackgroundLbl" destination="Ann-fQ-cps" id="x7Y-OT-zrU"/>
+                <outlet property="workBackgroundView" destination="LnW-oO-Akp" id="stj-T4-UZI"/>
+                <outlet property="workTypeLbl" destination="NMv-EA-shF" id="ECy-nb-91B"/>
+            </connections>
+            <point key="canvasLocation" x="-37.5" y="19.5"/>
+        </tableViewCell>
+    </objects>
+</document>

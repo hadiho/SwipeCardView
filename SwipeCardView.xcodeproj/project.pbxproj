@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F36305821F6EF560065F403 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F36305221F6EF560065F403 /* fontawesome-webfont.ttf */; };
+		0F36305D21F6EFDC0065F403 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36305C21F6EFDB0065F403 /* Colors.swift */; };
 		0F3B6E7521F6023500B6211B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E7421F6023500B6211B /* AppDelegate.swift */; };
 		0F3B6E7721F6023500B6211B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E7621F6023500B6211B /* ViewController.swift */; };
 		0F3B6E7A21F6023500B6211B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B6E7821F6023500B6211B /* Main.storyboard */; };
 		0F3B6E7C21F6023700B6211B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B6E7B21F6023700B6211B /* Assets.xcassets */; };
 		0F3B6E7F21F6023700B6211B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B6E7D21F6023700B6211B /* LaunchScreen.storyboard */; };
 		0F3B6E8A21F6023700B6211B /* SwipeCardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E8921F6023700B6211B /* SwipeCardViewTests.swift */; };
+		0F3B6E9F21F6027800B6211B /* KolodaCardStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E9521F6027800B6211B /* KolodaCardStorage.swift */; };
+		0F3B6EA021F6027800B6211B /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E9721F6027800B6211B /* OverlayView.swift */; };
+		0F3B6EA121F6027800B6211B /* SwipeResultDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E9821F6027800B6211B /* SwipeResultDirection.swift */; };
+		0F3B6EA221F6027800B6211B /* KolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E9921F6027800B6211B /* KolodaView.swift */; };
+		0F3B6EA321F6027800B6211B /* KolodaAnimationSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E9A21F6027800B6211B /* KolodaAnimationSemaphore.swift */; };
+		0F3B6EA421F6027800B6211B /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E9B21F6027800B6211B /* CustomOverlayView.swift */; };
+		0F3B6EA521F6027800B6211B /* DraggableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E9D21F6027800B6211B /* DraggableCardView.swift */; };
+		0F3B6EA621F6027800B6211B /* KolodaViewAnimatior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6E9E21F6027800B6211B /* KolodaViewAnimatior.swift */; };
+		0F3B6F0421F60B0800B6211B /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B6F0321F60B0800B6211B /* CardView.xib */; };
+		0F3B6F0621F60B4800B6211B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6F0521F60B4800B6211B /* CardView.swift */; };
+		0F3B6F0821F60E4000B6211B /* CardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6F0721F60E4000B6211B /* CardHeaderView.swift */; };
+		0F3B6F0A21F60E7A00B6211B /* CardHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B6F0921F60E7A00B6211B /* CardHeaderView.xib */; };
+		0F3B6F0C21F6107F00B6211B /* CandidateCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6F0B21F6107F00B6211B /* CandidateCardCell.swift */; };
+		0F3B6F0E21F6109E00B6211B /* CandidateCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B6F0D21F6109E00B6211B /* CandidateCardCell.xib */; };
+		0F3B6F1021F6113400B6211B /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B6F0F21F6113300B6211B /* CustomOverlayView.xib */; };
+		0F3B6F1221F613E000B6211B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B6F1121F613E000B6211B /* Model.swift */; };
+		BE63DD50877AD8BA6B64FBDD /* Pods_SwipeCardView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3251C8C3FB3821346A2359 /* Pods_SwipeCardView.framework */; };
+		C40B3061F9596D27E622964B /* Pods_SwipeCardViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D3DA20DA102EB1FBD79654 /* Pods_SwipeCardViewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F36305221F6EF560065F403 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		0F36305C21F6EFDB0065F403 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		0F3B6E7121F6023500B6211B /* SwipeCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3B6E7421F6023500B6211B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F3B6E7621F6023500B6211B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +58,28 @@
 		0F3B6E8521F6023700B6211B /* SwipeCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3B6E8921F6023700B6211B /* SwipeCardViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardViewTests.swift; sourceTree = "<group>"; };
 		0F3B6E8B21F6023700B6211B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3B6E9521F6027800B6211B /* KolodaCardStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaCardStorage.swift; sourceTree = "<group>"; };
+		0F3B6E9721F6027800B6211B /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		0F3B6E9821F6027800B6211B /* SwipeResultDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeResultDirection.swift; sourceTree = "<group>"; };
+		0F3B6E9921F6027800B6211B /* KolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaView.swift; sourceTree = "<group>"; };
+		0F3B6E9A21F6027800B6211B /* KolodaAnimationSemaphore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaAnimationSemaphore.swift; sourceTree = "<group>"; };
+		0F3B6E9B21F6027800B6211B /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		0F3B6E9D21F6027800B6211B /* DraggableCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableCardView.swift; sourceTree = "<group>"; };
+		0F3B6E9E21F6027800B6211B /* KolodaViewAnimatior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaViewAnimatior.swift; sourceTree = "<group>"; };
+		0F3B6F0321F60B0800B6211B /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		0F3B6F0521F60B4800B6211B /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0F3B6F0721F60E4000B6211B /* CardHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardHeaderView.swift; sourceTree = "<group>"; };
+		0F3B6F0921F60E7A00B6211B /* CardHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardHeaderView.xib; sourceTree = "<group>"; };
+		0F3B6F0B21F6107F00B6211B /* CandidateCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateCardCell.swift; sourceTree = "<group>"; };
+		0F3B6F0D21F6109E00B6211B /* CandidateCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CandidateCardCell.xib; sourceTree = "<group>"; };
+		0F3B6F0F21F6113300B6211B /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		0F3B6F1121F613E000B6211B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		11D3DA20DA102EB1FBD79654 /* Pods_SwipeCardViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeCardViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3251C8C3FB3821346A2359 /* Pods_SwipeCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB0F9C50D18A926AFDBE7DC /* Pods-SwipeCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCardView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeCardView/Pods-SwipeCardView.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB85F5E6BE0DC7837D33CD7 /* Pods-SwipeCardViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCardViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeCardViewTests/Pods-SwipeCardViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6360EC7C5AC76EE05A6811A /* Pods-SwipeCardViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCardViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeCardViewTests/Pods-SwipeCardViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEBFEAA455A481BC403DCE7B /* Pods-SwipeCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCardView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeCardView/Pods-SwipeCardView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE63DD50877AD8BA6B64FBDD /* Pods_SwipeCardView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +95,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40B3061F9596D27E622964B /* Pods_SwipeCardViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F36304F21F6EF560065F403 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0F36305221F6EF560065F403 /* fontawesome-webfont.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		0F3B6E6821F6023500B6211B = {
 			isa = PBXGroup;
 			children = (
 				0F3B6E7321F6023500B6211B /* SwipeCardView */,
 				0F3B6E8821F6023700B6211B /* SwipeCardViewTests */,
 				0F3B6E7221F6023500B6211B /* Products */,
+				91AA5CEF44F920811CF3B033 /* Pods */,
+				D612EBFCBEC0D4B00747C52B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +133,23 @@
 		0F3B6E7321F6023500B6211B /* SwipeCardView */ = {
 			isa = PBXGroup;
 			children = (
+				0F3B6E9421F6027800B6211B /* KolodaView */,
 				0F3B6E7421F6023500B6211B /* AppDelegate.swift */,
 				0F3B6E7621F6023500B6211B /* ViewController.swift */,
+				0F3B6F0521F60B4800B6211B /* CardView.swift */,
+				0F3B6F0921F60E7A00B6211B /* CardHeaderView.xib */,
+				0F3B6F0B21F6107F00B6211B /* CandidateCardCell.swift */,
+				0F3B6F0721F60E4000B6211B /* CardHeaderView.swift */,
+				0F3B6F0F21F6113300B6211B /* CustomOverlayView.xib */,
+				0F3B6F0D21F6109E00B6211B /* CandidateCardCell.xib */,
+				0F3B6F0321F60B0800B6211B /* CardView.xib */,
+				0F36305C21F6EFDB0065F403 /* Colors.swift */,
 				0F3B6E7821F6023500B6211B /* Main.storyboard */,
 				0F3B6E7B21F6023700B6211B /* Assets.xcassets */,
 				0F3B6E7D21F6023700B6211B /* LaunchScreen.storyboard */,
+				0F36304F21F6EF560065F403 /* Fonts */,
 				0F3B6E8021F6023700B6211B /* Info.plist */,
+				0F3B6F1121F613E000B6211B /* Model.swift */,
 			);
 			path = SwipeCardView;
 			sourceTree = "<group>";
@@ -96,6 +163,57 @@
 			path = SwipeCardViewTests;
 			sourceTree = "<group>";
 		};
+		0F3B6E9421F6027800B6211B /* KolodaView */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B6E9521F6027800B6211B /* KolodaCardStorage.swift */,
+				0F3B6E9621F6027800B6211B /* OverlayView */,
+				0F3B6E9821F6027800B6211B /* SwipeResultDirection.swift */,
+				0F3B6E9921F6027800B6211B /* KolodaView.swift */,
+				0F3B6E9A21F6027800B6211B /* KolodaAnimationSemaphore.swift */,
+				0F3B6E9B21F6027800B6211B /* CustomOverlayView.swift */,
+				0F3B6E9C21F6027800B6211B /* DraggableCardView */,
+				0F3B6E9E21F6027800B6211B /* KolodaViewAnimatior.swift */,
+			);
+			path = KolodaView;
+			sourceTree = "<group>";
+		};
+		0F3B6E9621F6027800B6211B /* OverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B6E9721F6027800B6211B /* OverlayView.swift */,
+			);
+			path = OverlayView;
+			sourceTree = "<group>";
+		};
+		0F3B6E9C21F6027800B6211B /* DraggableCardView */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B6E9D21F6027800B6211B /* DraggableCardView.swift */,
+			);
+			path = DraggableCardView;
+			sourceTree = "<group>";
+		};
+		91AA5CEF44F920811CF3B033 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0F9C50D18A926AFDBE7DC /* Pods-SwipeCardView.debug.xcconfig */,
+				FEBFEAA455A481BC403DCE7B /* Pods-SwipeCardView.release.xcconfig */,
+				D6360EC7C5AC76EE05A6811A /* Pods-SwipeCardViewTests.debug.xcconfig */,
+				9FB85F5E6BE0DC7837D33CD7 /* Pods-SwipeCardViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D612EBFCBEC0D4B00747C52B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A3251C8C3FB3821346A2359 /* Pods_SwipeCardView.framework */,
+				11D3DA20DA102EB1FBD79654 /* Pods_SwipeCardViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F3B6E8E21F6023700B6211B /* Build configuration list for PBXNativeTarget "SwipeCardView" */;
 			buildPhases = (
+				CC65FDA472B0D464DD2E2B81 /* [CP] Check Pods Manifest.lock */,
 				0F3B6E6D21F6023500B6211B /* Sources */,
 				0F3B6E6E21F6023500B6211B /* Frameworks */,
 				0F3B6E6F21F6023500B6211B /* Resources */,
+				1FF0924984F0F1AA17E4B24F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F3B6E9121F6023700B6211B /* Build configuration list for PBXNativeTarget "SwipeCardViewTests" */;
 			buildPhases = (
+				5000902FED2362E3BD4E29D0 /* [CP] Check Pods Manifest.lock */,
 				0F3B6E8121F6023700B6211B /* Sources */,
 				0F3B6E8221F6023700B6211B /* Frameworks */,
 				0F3B6E8321F6023700B6211B /* Resources */,
@@ -177,8 +298,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3B6F1021F6113400B6211B /* CustomOverlayView.xib in Resources */,
 				0F3B6E7F21F6023700B6211B /* LaunchScreen.storyboard in Resources */,
+				0F3B6F0E21F6109E00B6211B /* CandidateCardCell.xib in Resources */,
+				0F3B6F0A21F60E7A00B6211B /* CardHeaderView.xib in Resources */,
 				0F3B6E7C21F6023700B6211B /* Assets.xcassets in Resources */,
+				0F3B6F0421F60B0800B6211B /* CardView.xib in Resources */,
+				0F36305821F6EF560065F403 /* fontawesome-webfont.ttf in Resources */,
 				0F3B6E7A21F6023500B6211B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,12 +318,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FF0924984F0F1AA17E4B24F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwipeCardView/Pods-SwipeCardView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeCardView/Pods-SwipeCardView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5000902FED2362E3BD4E29D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeCardViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC65FDA472B0D464DD2E2B81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeCardView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F3B6E6D21F6023500B6211B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3B6EA121F6027800B6211B /* SwipeResultDirection.swift in Sources */,
+				0F36305D21F6EFDC0065F403 /* Colors.swift in Sources */,
+				0F3B6EA521F6027800B6211B /* DraggableCardView.swift in Sources */,
+				0F3B6F0C21F6107F00B6211B /* CandidateCardCell.swift in Sources */,
+				0F3B6E9F21F6027800B6211B /* KolodaCardStorage.swift in Sources */,
+				0F3B6EA621F6027800B6211B /* KolodaViewAnimatior.swift in Sources */,
+				0F3B6EA421F6027800B6211B /* CustomOverlayView.swift in Sources */,
+				0F3B6F0821F60E4000B6211B /* CardHeaderView.swift in Sources */,
+				0F3B6F1221F613E000B6211B /* Model.swift in Sources */,
+				0F3B6EA221F6027800B6211B /* KolodaView.swift in Sources */,
+				0F3B6EA021F6027800B6211B /* OverlayView.swift in Sources */,
 				0F3B6E7721F6023500B6211B /* ViewController.swift in Sources */,
+				0F3B6EA321F6027800B6211B /* KolodaAnimationSemaphore.swift in Sources */,
+				0F3B6F0621F60B4800B6211B /* CardView.swift in Sources */,
 				0F3B6E7521F6023500B6211B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +556,7 @@
 		};
 		0F3B6E8F21F6023700B6211B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB0F9C50D18A926AFDBE7DC /* Pods-SwipeCardView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,13 +568,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ctrlTech.SwipeCardView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0F3B6E9021F6023700B6211B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBFEAA455A481BC403DCE7B /* Pods-SwipeCardView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -387,13 +587,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ctrlTech.SwipeCardView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		0F3B6E9221F6023700B6211B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6360EC7C5AC76EE05A6811A /* Pods-SwipeCardViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +616,7 @@
 		};
 		0F3B6E9321F6023700B6211B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB85F5E6BE0DC7837D33CD7 /* Pods-SwipeCardViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

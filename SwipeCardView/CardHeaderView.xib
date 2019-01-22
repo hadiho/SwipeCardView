@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IRANYekanMobileRegular.ttf">
+            <string>IRANYekanMobile</string>
+        </array>
+        <array key="fontawesome-webfont.ttf">
+            <string>FontAwesome</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardHeaderView" customModule="_SootJobs" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VBi-Pa-4w2">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U50-FI-xpv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
+                    <color key="backgroundColor" red="0.32156862749999998" green="0.76862745099999996" blue="0.27058823529999998" alpha="0.53000000000000003" colorSpace="calibratedRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Employer" translatesAutoresizingMaskIntoConstraints="NO" id="bv6-lE-W10">
+                    <rect key="frame" x="279" y="156" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.0" green="0.7725490196" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="bUD-jY-nHY"/>
+                        <constraint firstAttribute="width" constant="80" id="v7R-Qu-Ztk"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="فوری" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2J-Om-yM7">
+                    <rect key="frame" x="213" y="174" width="50" height="20"/>
+                    <color key="backgroundColor" red="0.89803921568627454" green="0.27058823529411763" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="b7V-ni-oLk"/>
+                        <constraint firstAttribute="width" constant="50" id="trX-Ik-Rn1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ویژه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZV-1k-ysX">
+                    <rect key="frame" x="155" y="174" width="50" height="20"/>
+                    <color key="backgroundColor" red="0.0" green="0.77254901960784317" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="YRf-AD-Hvn"/>
+                        <constraint firstAttribute="width" constant="50" id="zi9-WG-46m"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfC-P4-g1h">
+                    <rect key="frame" x="258" y="224" width="13" height="13"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="13" id="5JA-sH-ArC"/>
+                        <constraint firstAttribute="width" constant="13" id="fje-N3-KDs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="13"/>
+                    <color key="textColor" red="0.90196078431372551" green="0.27058823529411763" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="شرکت فناوری و اطلاعات فناپ" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4v-dD-lja">
+                    <rect key="frame" x="16" y="224" width="235" height="13"/>
+                    <fontDescription key="fontDescription" name="IRANYekanMobile" family="IRANYekanMobile" pointSize="12"/>
+                    <color key="textColor" red="0.90196078430000004" green="0.27058823529999998" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJH-1E-0lt">
+                    <rect key="frame" x="16" y="182" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.46274509803921571" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="LAw-zL-ZoS"/>
+                        <constraint firstAttribute="width" constant="40" id="tRy-nf-VfA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fat-Nk-6se">
+                    <rect key="frame" x="127" y="25" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="9am-SU-Nji"/>
+                        <constraint firstAttribute="width" constant="120" id="Eif-5f-u5Q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="90"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bv6-lE-W10" firstAttribute="leading" secondItem="N2J-Om-yM7" secondAttribute="trailing" constant="16" id="2HD-tC-s9d"/>
+                <constraint firstItem="U50-FI-xpv" firstAttribute="top" secondItem="VBi-Pa-4w2" secondAttribute="top" id="6qS-zL-cqr"/>
+                <constraint firstItem="bv6-lE-W10" firstAttribute="top" secondItem="VBi-Pa-4w2" secondAttribute="bottom" constant="-54" id="7RM-bd-fWu"/>
+                <constraint firstItem="bv6-lE-W10" firstAttribute="leading" secondItem="OfC-P4-g1h" secondAttribute="trailing" constant="8" id="7zX-I8-YEH"/>
+                <constraint firstItem="OfC-P4-g1h" firstAttribute="leading" secondItem="C4v-dD-lja" secondAttribute="trailing" constant="7" id="Dkn-me-j0k"/>
+                <constraint firstItem="U50-FI-xpv" firstAttribute="bottom" secondItem="VBi-Pa-4w2" secondAttribute="bottom" id="M7j-S9-n4V"/>
+                <constraint firstItem="U50-FI-xpv" firstAttribute="width" secondItem="VBi-Pa-4w2" secondAttribute="width" id="O2I-af-PN5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="bv6-lE-W10" secondAttribute="trailing" constant="16" id="OMJ-OU-aKq"/>
+                <constraint firstItem="fZV-1k-ysX" firstAttribute="bottom" secondItem="N2J-Om-yM7" secondAttribute="bottom" id="UWs-8F-97C"/>
+                <constraint firstItem="C4v-dD-lja" firstAttribute="top" secondItem="OfC-P4-g1h" secondAttribute="top" id="Vbh-VK-vRZ"/>
+                <constraint firstItem="VBi-Pa-4w2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Ywh-Qv-R5h"/>
+                <constraint firstItem="fZV-1k-ysX" firstAttribute="top" secondItem="N2J-Om-yM7" secondAttribute="top" id="ZOB-iN-xbs"/>
+                <constraint firstItem="N2J-Om-yM7" firstAttribute="leading" secondItem="fZV-1k-ysX" secondAttribute="trailing" constant="8" id="dWA-Pr-aIA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VBi-Pa-4w2" secondAttribute="trailing" id="hy9-ZN-XOR"/>
+                <constraint firstItem="bv6-lE-W10" firstAttribute="leading" secondItem="U50-FI-xpv" secondAttribute="trailing" constant="-96" id="kuf-uL-GCB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="VBi-Pa-4w2" secondAttribute="bottom" constant="40" id="nWz-HY-DfB"/>
+                <constraint firstItem="PJH-1E-0lt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="pZt-fz-HKy"/>
+                <constraint firstItem="PJH-1E-0lt" firstAttribute="top" secondItem="fZV-1k-ysX" secondAttribute="top" constant="8" id="sBT-W3-bgO"/>
+                <constraint firstItem="C4v-dD-lja" firstAttribute="bottom" secondItem="OfC-P4-g1h" secondAttribute="bottom" id="teM-Kg-1LO"/>
+                <constraint firstItem="N2J-Om-yM7" firstAttribute="top" secondItem="bv6-lE-W10" secondAttribute="top" constant="18" id="uvl-s7-xcJ"/>
+                <constraint firstItem="Fat-Nk-6se" firstAttribute="centerY" secondItem="U50-FI-xpv" secondAttribute="centerY" constant="-20" id="xlR-7l-ZNn"/>
+                <constraint firstItem="OfC-P4-g1h" firstAttribute="top" secondItem="VBi-Pa-4w2" secondAttribute="bottom" constant="14" id="zQe-KN-h27"/>
+                <constraint firstItem="VBi-Pa-4w2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="zXL-zQ-5ox"/>
+                <constraint firstItem="C4v-dD-lja" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="znC-Uj-w3f"/>
+                <constraint firstItem="Fat-Nk-6se" firstAttribute="centerX" secondItem="U50-FI-xpv" secondAttribute="centerX" id="zyb-4B-l7L"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="avatarImg" destination="bv6-lE-W10" id="tqm-2X-cyH"/>
+                <outlet property="backgroundImg" destination="VBi-Pa-4w2" id="dxY-ar-6WU"/>
+                <outlet property="backgroundImgBottomConst" destination="nWz-HY-DfB" id="YKK-Xo-Ll1"/>
+                <outlet property="companyTitleLbl" destination="C4v-dD-lja" id="PGB-Jl-dkf"/>
+                <outlet property="iconLbl" destination="Fat-Nk-6se" id="yVc-Ms-lM5"/>
+                <outlet property="immediateLbl" destination="N2J-Om-yM7" id="u57-ay-kcq"/>
+                <outlet property="overlayImage" destination="U50-FI-xpv" id="Ozu-u5-ZjQ"/>
+                <outlet property="scalerLbl" destination="PJH-1E-0lt" id="c9i-a1-L9D"/>
+                <outlet property="specialLbl" destination="fZV-1k-ysX" id="EvX-UD-FWM"/>
+            </connections>
+            <point key="canvasLocation" x="-97" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Employer" width="107" height="107"/>
+    </resources>
+</document>
